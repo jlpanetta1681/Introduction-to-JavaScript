@@ -49,19 +49,19 @@ console.log(dogYears(39));
 /************************************************************** Task 3 **************************************************************/
 //Dog feeder 
 //takes weight in pounds and age in years (note if the dog is a puppy the age will be a decimal) and returns the number of pounds of raw food to feed in a day.
-function dogFeeder(lbs,yrs){
-    if( lbs >= 15 ) && (age >= 1 ){
-        return ( lbs * .2 ) + ("lbs of raw food a day.");
-     } else if( lbs < 15 ) && ( lbs >= 11 ) && ( age >= 1 ){
-return ( lbs * .3 ) + "punds of raw0 food a day.";
-     }else if(lbs < 11 ) && ( lbs >= 6 ){
-return (lbs * .4 ) + "pounds of raw food a day.";
-}else if( lbs < 6 ) && ( lbs > 0 )  && ( age >= 1 ){
-return ( lbs * .5 ) + "paunds of raw food a day";
-}
+//function dogFeeder(lbs,yrs){
+  //  if( lbs >= 15 ) && (age =// 1 ){
+      //  return ( lbs * .2 ) + //("lbs of raw food a day.");
+     //} else if( lbs < 15 ) && //( lbs >= 11 ) && ( age //= 1 ){
+//return ( lbs * .3 ) + "punds of raw0 food a day.";
+    // }else if(lbs < 11 ) && ( lbs >= 6 ){
+//return (lbs * .4 ) + "pounds /of raw food a day.";
+//}else if( lbs < 6 ) && ( lbs > 0 )  && ( age >= 1 ){
+//return ( lbs * .5 ) + "paunds of raw food a day";
+//}
 
 
-}
+
 //feeding requirements
 // adult dogs at least 1 year 
 // up to 5 lbs - 5% of their body weight
@@ -85,10 +85,16 @@ return ( lbs * .5 ) + "paunds of raw food a day";
 // Your function should take a string (either rock paper or sissors)
 // it should return you won or you lost based on the rules of the game (you may need to look up the rules if you have not played before)
 // use math.random to determine the computers choice 
-// hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
+// hint while you can complete this with only conditionals based on strings it may help to equate choice to a number
+const rock = 1;
+const paper = 2;
+const scizzors = 3;
 
-  
-  
+
+function rpscizzors(choice) {
+let random = Math.floor(Math.random() * 10);    
+ if(random > 0 && random < 4)
+
 
 /************************************************************** Task 5 **************************************************************/
 //Metric Converter
