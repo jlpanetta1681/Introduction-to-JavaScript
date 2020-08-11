@@ -1,11 +1,20 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
-//Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
-
-
+//Task a: declare a variable called votingAge, console log true if age > 18 (no function needed)
+let votingAge = 21;
+if(votingAge > 18);
+console.log('true');
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
+let kidsGrounded = true
+let kidsRooms = "clean";
+
+if(kidsRooms === "clean"){
+kidsGrounded = false;
+}
+    console.log(kidsGrounded);
+
 
 
 
@@ -13,28 +22,46 @@
 
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
 
-
-
+str = parseInt("1999");
+console.log(str);
 
 
 //Task d: Write a function to multiply a*b 
-
+function multiply(a,b){
+    return a * b
+};
+console.log(multiply(4,5));
 
 
 
 
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
-//write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
+//write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years
 
-
+function dogYears(manAge){
+    return manAge * 7;
+}
+console.log(dogYears(39));
 
 
 
 /************************************************************** Task 3 **************************************************************/
 //Dog feeder 
 //takes weight in pounds and age in years (note if the dog is a puppy the age will be a decimal) and returns the number of pounds of raw food to feed in a day.
+function dogFeeder(lbs,yrs){
+    if( lbs >= 15 ) && (age >= 1 ){
+        return ( lbs * .2 ) + ("lbs of raw food a day.");
+     } else if( lbs < 15 ) && ( lbs >= 11 ) && ( age >= 1 ){
+return ( lbs * .3 ) + "punds of raw0 food a day.";
+     }else if(lbs < 11 ) && ( lbs >= 6 ){
+return (lbs * .4 ) + "pounds of raw food a day.";
+}else if( lbs < 6 ) && ( lbs > 0 )  && ( age >= 1 ){
+return ( lbs * .5 ) + "paunds of raw food a day";
+}
 
+
+}
 //feeding requirements
 // adult dogs at least 1 year 
 // up to 5 lbs - 5% of their body weight
