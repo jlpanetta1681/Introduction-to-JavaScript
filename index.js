@@ -50,18 +50,18 @@ console.log(dogYears(39));
 /************************************************************** Task 3 **************************************************************/
 //Dog feeder 
 //takes weight in pounds and age in years (note if the dog is a puppy the age will be a decimal) and returns the number of pounds of raw food to feed in a day.
-function dogFeeder(lbs,yrs){
-  if( lbs >= 15  &&  (age = 1 )){
-  return ( lbs * .2 ) + ("lbs of raw food a day.");
-  } else if( lbs < 15  &&  lbs >= 11 ) && ( age = 1 ){
-return ( lbs * .3 ) + "punds of raw food per day";
-} else if(lbs < 11 ) && ( lbs >= 6 ){
+///function dogFeeder(lbs,yrs){
+  //if( lbs >= 15  &&  (age = 1 )){
+  //return ( lbs * .2 ) + ("lbs of raw food a day.");
+  //} else if( lbs < 15  &&  lbs >= 11 ) && ( age = 1 ){
+//return ( lbs * .3 ) + "punds of raw food per day";
+//} else if(lbs < 11 ) && ( lbs >= 6 ){
 //return (lbs * .4  + "pounds /of raw food a day.";
 //}else if( lbs < 6 ) && ( lbs > 0 )  && ( age >= 1 ){
 //return ( lbs * .5 ) + "paunds of raw food a day";
 //}
 
-console.log(dogFeeder(15,1))
+//console.log(dogFeeder(15,1))
 
 //feeding requirements
 // adult dogs at least 1 year 
@@ -91,10 +91,17 @@ console.log(dogFeeder(15,1))
 //const paper = 2;
 //const scizzors = 3;
 
+function rpscizzors(choice) {
+let random = Math.random();    
+if(random < .3){
+    console.log("rock");
+}if (random > .3 && random < .6) { 
+    console.log("Paper");
+}if(random > .6){
+    console.log("scizzors");
+}
+}
 
-//function rpscizzors(choice) {
-//let random = Math.floor(Math.random() * 10);    
- //if(random > 0 && random < 4)
 
 
 /************************************************************** Task 5 **************************************************************/
