@@ -1,3 +1,4 @@
+
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function needed)
 let votingAge = 21;
@@ -16,7 +17,7 @@ kidsGrounded = false;
     console.log(kidsGrounded);
 
 
-
+    
 
 
 
@@ -49,18 +50,18 @@ console.log(dogYears(39));
 /************************************************************** Task 3 **************************************************************/
 //Dog feeder 
 //takes weight in pounds and age in years (note if the dog is a puppy the age will be a decimal) and returns the number of pounds of raw food to feed in a day.
-//function dogFeeder(lbs,yrs){
-  //  if( lbs >= 15 ) && (age =// 1 ){
-      //  return ( lbs * .2 ) + //("lbs of raw food a day.");
-     //} else if( lbs < 15 ) && //( lbs >= 11 ) && ( age //= 1 ){
-//return ( lbs * .3 ) + "punds of raw0 food a day.";
-    // }else if(lbs < 11 ) && ( lbs >= 6 ){
-//return (lbs * .4 ) + "pounds /of raw food a day.";
+function dogFeeder(lbs,yrs){
+  if( lbs >= 15  &&  (age = 1 )){
+  return ( lbs * .2 ) + ("lbs of raw food a day.");
+  } else if( lbs < 15  &&  lbs >= 11 ) && ( age = 1 ){
+return ( lbs * .3 ) + "punds of raw food per day";
+} else if(lbs < 11 ) && ( lbs >= 6 ){
+//return (lbs * .4  + "pounds /of raw food a day.";
 //}else if( lbs < 6 ) && ( lbs > 0 )  && ( age >= 1 ){
 //return ( lbs * .5 ) + "paunds of raw food a day";
 //}
 
-
+console.log(dogFeeder(15,1))
 
 //feeding requirements
 // adult dogs at least 1 year 
@@ -86,14 +87,14 @@ console.log(dogYears(39));
 // it should return you won or you lost based on the rules of the game (you may need to look up the rules if you have not played before)
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number
-const rock = 1;
-const paper = 2;
-const scizzors = 3;
+//const rock = 1
+//const paper = 2;
+//const scizzors = 3;
 
 
-function rpscizzors(choice) {
-let random = Math.floor(Math.random() * 10);    
- if(random > 0 && random < 4)
+//function rpscizzors(choice) {
+//let random = Math.floor(Math.random() * 10);    
+ //if(random > 0 && random < 4)
 
 
 /************************************************************** Task 5 **************************************************************/
@@ -127,9 +128,9 @@ let random = Math.floor(Math.random() * 10);
 //70s should be Cs 
 //60s should be D 
 //and anything below 60 should be F
-  
 
-  
+
+
   
 
 /************************************************************** Stretch **************************************************************/
@@ -144,8 +145,4 @@ let random = Math.floor(Math.random() * 10);
 /************************************************************** Stretch **************************************************************/
 //Take Rock, Paper, Sissors further
 //update your rock papers sissors code below to take a prompt from a user using the window object
-
-
-
-
-
+//sissors code below to take a prompt from a user using the window object
